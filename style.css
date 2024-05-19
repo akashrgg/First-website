@@ -5,6 +5,7 @@ img{
 #v1{
     background: url(img4.png) no-repeat 0% 50%;
     rotate: left;
+    text-align: center;
 }
 .site-main .site-banner .site-title h1{
     padding-top: 180px;
@@ -27,5 +28,6 @@ body{
 #pa{
     padding: 20px 20px 35px 0px ;
     column-gap: 10px;
+    justify-content: center;
     
 }
