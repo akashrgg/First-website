@@ -6,7 +6,7 @@ img{
     background: url(img4.png) no-repeat 0% 50%;
     rotate: left;
 }
-.site-main .site-banner .site-title h3{
+.site-main .site-banner .site-title h1{
     padding-top: 180px;
     font-weight: 500;
 }
@@ -15,9 +15,17 @@ img{
     margin-top: 5vh;
 }
 body{
-    height: 150vh;
+    height: 175vh;
 }
 #v{
     display: grid;
     justify-content: center;
+}
+#padding{
+    padding-top: 10vh;
+}
+#pa{
+    padding: 20px 20px 35px 0px ;
+    column-gap: 10px;
+    
 }
