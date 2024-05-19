@@ -1,0 +1,19 @@
+img{
+    border-radius: 360px;
+}
+
+.site-main .site-banner{
+    background: url(img4.png) no-repeat 0% 50%;
+    rotate: left;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 200px;
+    font-weight: 500;
+}
+
+#imgi{
+    margin-top: 5vh;
+}
+body{
+    height: 150vh;
+}
