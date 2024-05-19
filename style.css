@@ -17,3 +17,7 @@ img{
 body{
     height: 150vh;
 }
+#v{
+    display: grid;
+    justify-content: center;
+}
