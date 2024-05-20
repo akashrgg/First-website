@@ -16,7 +16,15 @@ img{
     margin-top: 5vh;
 }
 body{
-    height: 175vh;
+    
+}
+#fixed{
+    position: absolute;
+    padding-top: 100px;
+    
+}
+#no{
+    text-decoration: none;
 }
 #v{
     display: grid;
