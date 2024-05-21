@@ -19,9 +19,24 @@ body{
     
 }
 #fixed{
-    position: absolute;
-    padding-top: 100px;
     
+    padding-top: 70px;
+    
+}
+#b{
+    
+    margin-left: 400px;
+   height: 10vh;
+}
+#ba{
+ margin-left: 7;
+}
+#back{
+ background-image: url(img1.jpg);
+}
+#pad{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
 }
 #no{
     text-decoration: none;
@@ -38,4 +53,7 @@ body{
     column-gap: 10px;
     justify-content: center;
     
+}
+#back{
+    background-image: url(img4.png);
 }
