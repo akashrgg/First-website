@@ -32,12 +32,12 @@ body{
  margin-left: 7;
 }
 #back{
- background-image: url(img1.jpg);
+ background-image: url(img.png);
 }
 #pad{
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+    padding: 20px 20px 20px 20px;
 }
+
 #no{
     text-decoration: none;
 }
@@ -45,9 +45,22 @@ body{
     display: grid;
     justify-content: center;
 }
+#m{
+    padding-top: 70px;
+}
+#Text{
+   text-align: center;
+   display: grid;
+   justify-content: center;
+}
+#glow:hover{
+    transform: scale(1.1);
+
+}
 #padding{
     padding-top: 10vh;
-}
+    width: 80rem;
+}   
 #pa{
     padding: 20px 10px 35px 10px ;
     column-gap: 10px;
