@@ -93,10 +93,10 @@ body{
     padding-bottom: 5px;
 }
 form{
-    background-image:url(dark2.jpg);
+    background-image:url(contact2.jpg);
     display: flex;
     flex-direction: column;
-    border-radius: 100px;
+    
     width: 90%;
     max-width: 600px;
     padding: 2vw 4vw;
@@ -127,7 +127,7 @@ form input, form textarea{
     border: 0;
     margin: 10px 0;
     padding: 20px;
-    outline: none;
+    
     background-color: white;
     font-size: 16px;
 
