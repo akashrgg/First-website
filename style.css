@@ -102,6 +102,20 @@ form{
     padding: 2vw 4vw;
     color: black;
 }
+#contact{
+    background-image: url(contact.png);
+}
+#gap{
+    column-gap: 50px;
+    row-gap: 20px;
+}
+#top{
+    padding-top: 40px;
+}
+#al{
+    text-align: center;
+    padding-top: 10px;
+}
 form h3{
     color: rgb(55, 53, 50);
     font-weight: 800;
