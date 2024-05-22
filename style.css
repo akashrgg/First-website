@@ -70,3 +70,59 @@ body{
 #back{
     background-image: url(img4.png);
 }
+#ab{
+    position: fixed;
+}
+#Texts{
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#con{
+    background-image: url(bgimg.jpg) ;
+    
+}
+#c{
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+form{
+    background-color: rgb(182, 196, 215);
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 90%;
+    max-width: 600px;
+    padding: 2vw 4vw;
+    color: black;
+}
+form h3{
+    color: rgb(55, 53, 50);
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+
+}
+form button{
+    padding: 10px;
+    background-color: rgb(42, 13, 148);
+    color: white;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}

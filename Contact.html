@@ -25,9 +25,6 @@
                         <a class="nav-link" href="About.html">About</a>
                       </li>
                      
-                      <li class="nav-item">
-                        <a class="nav-link" href ="page.html">Page</a>
-                    </li>
                     
                   <li class="nav-item">
                     <a class="nav-link" href ="Blog.html">Blog</a>
@@ -41,12 +38,33 @@
         </div>
       </nav>
   </div>
-  <div>
-    <h1>
-        CONTACT
-    </h1>
+  <div id="c">
+  <div class="container d-flex justify-content-center " id="con">
+    
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <h3 id="Text">GET IN TOUCH</h3>
+      <input type="hidden" name="access_key" value="dea88c5f-ea30-4bd0-9a35-263e01070685">
+
+      <input type="text" name="name" placeholder="Your Name" class="Contact-inputs" required>
+      <input type="email" name="email" placeholder="Email id" required>
+      <input type="text" name="phone no" placeholder="Phone no." required>
+      <textarea name ="message" rows="4" placeholder="How can we help you?"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    
   </div>
+  </div>
+  <footer class="container-fluid d-grid justify-content-center">
+    <div id = "fixed">
+      <img src="Call.jpg" width="100px" alt="call"><h5>8608841928</h5>
+    </div>
+  </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+   
+    
+   
 </body>
 </html>
