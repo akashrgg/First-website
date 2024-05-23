@@ -7,8 +7,8 @@
     transform: scale(1.1); 
 }
 #g{
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     
     
 }
@@ -26,17 +26,24 @@
 #imgi{
     margin-top: 5vh;
 }
-body{
-    
-}
+
+
 #fixed{
     
     padding-top: 70px;
     
 }
+#fixeds{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
 #b{
     
-    margin-left: 400px;
+   margin-left: 400px;
    height: 10vh;
 }
 #ba{
