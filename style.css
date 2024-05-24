@@ -154,9 +154,14 @@ form{
     height: 8vh;
     
 }
+
 #modify{
     padding-top: 30px;
     padding-bottom: 30px;
+    
+}
+#mmm{
+    width: 30px;
 }
 #bb{
     border-style: solid;
