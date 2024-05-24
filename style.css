@@ -1,7 +1,6 @@
 
 #imgid{
-
-    border-radius: 360px;
+border-radius: 360px;
 }
 #imgid:hover{
     transform: scale(1.1); 
@@ -77,10 +76,17 @@
     transform: scale(1.1);
 
 }
+#glow1{
+    padding-top: 20px;
+}
+#glow1:hover{
+    transform: scale(1.1);
+}
 
 #padding{
     padding-top: 10vh;
     width: 80rem;
+    border-radius: 360px;
 }   
 #pa{
     padding: 20px 10px 35px 10px ;
@@ -101,9 +107,29 @@
     padding-bottom: 20px;
 }
 
+.none{
+    display: none;
+}
+#top-pa{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
 #con{
     background-image: url(bgimg.jpg);
     
+}
+#ll{
+   background-image: url(blog2.png); 
+   margin-top: 50px;
+}
+#ff{
+    width: 100px;
+}
+#f{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    row-gap: 6px;
+
 }
 #c{
     padding-top: 50px;
@@ -122,6 +148,27 @@ form{
 #contact{
     background-image: url(contact.png);
 }
+#ca{
+    width: 360px;
+    text-align: center;
+    height: 10vh;
+    
+}
+#modify{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#la{
+    width: 360px;
+
+
+}
+
+#ll{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 #gap{
     column-gap: 150px;
     row-gap: 50px;

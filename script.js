@@ -15,3 +15,18 @@ function sendEmail(){
 
 
 
+function send(){
+  document.getElementById("command").innerHTML = ca.value;
+  
+}
+function del(){
+  document.getElementById("command").innerHTML = "";
+  
+}
+
+let loadimage = document.getElementById("pic");
+let inputfile = document.getElementById("input_file");
+
+inputfile.onchange = function(){
+  loadimage.src = URL.createObjectURL(inputfile.files[0]);
+}
