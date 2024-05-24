@@ -149,15 +149,20 @@ form{
     background-image: url(contact.png);
 }
 #ca{
-    width: 360px;
+    width: 300px;
     text-align: center;
-    height: 10vh;
+    height: 8vh;
     
 }
 #modify{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+#bb{
+    border-style: solid;
+    padding: 10px 10px 10px 10px;
+}
+
 #la{
     width: 360px;
 
