@@ -19,6 +19,9 @@ function send(){
   document.getElementById("div-change").innerHTML ="hii";
   
 }
+function add(){
+  document.getElementById("command").innerText = ca.value;
+}
 function del(){
   document.getElementById("command").innerHTML = "";
   loadimage.src ="";
