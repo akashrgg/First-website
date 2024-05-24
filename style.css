@@ -106,6 +106,9 @@ border-radius: 360px;
     
     padding-bottom: 20px;
 }
+#pic{
+    width:320px;
+}
 
 .none{
     display: none;
@@ -160,9 +163,8 @@ form{
     padding-bottom: 30px;
     
 }
-#mmm{
-    width: 30px;
-}
+
+
 #bb{
     border-style: solid;
     padding: 10px 10px 10px 10px;
