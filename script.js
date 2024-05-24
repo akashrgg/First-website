@@ -16,11 +16,12 @@ function sendEmail(){
 
 
 function send(){
-  document.getElementById("command").innerHTML = ca.value;
+  document.getElementById("div-change").innerHTML ="hii";
   
 }
 function del(){
   document.getElementById("command").innerHTML = "";
+  loadimage.src ="";
   
 }
 

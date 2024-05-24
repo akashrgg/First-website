@@ -125,7 +125,7 @@ border-radius: 360px;
     
 }
 #ll{
-   background-image: url(blog2.png); 
+   background-image: url(blog4.jpg); 
    margin-top: 50px;
 }
 #ff{
@@ -169,10 +169,12 @@ form{
 
 
 #bb{
-    border-style: solid;
+    border-style: dotted;
     padding: 10px 10px 10px 10px;
 }
-
+#bb:hover{
+    transform: scale(1.1);
+}
 #la{
     width: 360px;
 
