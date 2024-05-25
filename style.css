@@ -109,6 +109,13 @@ border-radius: 360px;
 #pic{
     width:320px;
 }
+.card:hover{
+ transform: scale(1.1);
+}
+#margin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 #pi{
     width: 320px;
 }
@@ -157,7 +164,7 @@ form{
 #ca{
     width: 300px;
     text-align: center;
-    height: 6vh;
+    height: 9vh;
     
 }
 

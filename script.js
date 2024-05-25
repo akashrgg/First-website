@@ -16,15 +16,19 @@ function sendEmail(){
 
 
 function send(){
-  document.getElementById("div-change").innerHTML ="hii";
+  
+  document.getElementById("ll").style.display = "none";
   
 }
+
 function add(){
-  document.getElementById("command").innerText = ca.value;
+  document.getElementById("command").innerHTML = ca.value;
 }
 function del(){
   document.getElementById("command").innerHTML = "";
   loadimage.src ="";
+  
+  
   
 }
 
