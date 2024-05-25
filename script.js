@@ -18,7 +18,18 @@ function sendEmail(){
 function send(){
   
   document.getElementById("ll").style.display = "none";
+  document.getElementById("hide").style.display = "block";
+  document.getElementById("sho_w").style.display = "none";
   
+  
+}
+function addanother(){
+  
+  document.getElementById("hide").style.display ="none";
+  document.getElementById("sho_w").style.display = "block";
+  document.getElementById("cardch").style.display ="block";
+  document.getElementById("modifys").style.display ="block";
+  document.getElementById("car_d").style.display = "block";
 }
 
 function add(){
@@ -37,4 +48,8 @@ let inputfile = document.getElementById("input_file");
 
 inputfile.onchange = function(){
   loadimage.src = URL.createObjectURL(inputfile.files[0]);
+}
+
+function input_a (){
+  document.getElementById("car_d").innerHTML = sho_w.value;
 }

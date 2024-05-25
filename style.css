@@ -97,8 +97,15 @@ border-radius: 360px;
 #back{
     background-image: url(img4.png);
 }
+
 #ab{
     position: fixed;
+}
+#sho_w{
+    display: none;
+}
+#cardch{
+    display: none;
 }
 #Texts{
     text-align: center;
@@ -120,9 +127,26 @@ border-radius: 360px;
     width: 320px;
     text-align: center;
 }
-
+#pe{
+    width: 320px;
+    text-align: center;
+}
+#pe{
+    display: none;
+}
+#modifys{
+    display: none;
+}
 .none{
     display: none;
+}
+#hide{
+    display: none;
+    
+    background-color: antiquewhite;
+}
+#hide2{
+ display:  none;
 }
 #top-pa{
     padding-top: 20px;
@@ -130,7 +154,19 @@ border-radius: 360px;
 }
 #con{
     background-image: url(bgimg.jpg);
+  
     
+}
+#pdg{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+
+}
+#sho_w{
+    width: 300px;
 }
 #ll{
    background-image: url(blog4.jpg); 
@@ -175,6 +211,9 @@ form{
     
 }
 
+#modifys{
+    display: none;
+}
 
 #bb{
     border-style: dotted;
