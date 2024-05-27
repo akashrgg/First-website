@@ -22,15 +22,14 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="About.html">About</a>
+                        <a class="nav-link" href ="Blog.html">Blog</a>
                       </li>
                      
                       
                     
+                    <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
                     
-                 
-                  <li class="nav-item">
-                    <a class="nav-link" href ="Blog.html">Blog</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href ="Contact.html">Contact</a>
@@ -99,16 +98,32 @@
     
 
     <div class="d-grid justify-content-center container" id="pdg">
-    <button id="hide" onclick="addanother()">ADD ANOTHER</button>
+    <button id="hide" onclick="addanother()">WRITE BLOG</button>
     <div id="pdg">
-      <div class="card">
-            <div id="car_d"></div>
+      <div class="card bg-body-tertiary" id="cmm" >
+        <div id="wid" class="d-grid justify-content-center">
+           <img src ="" alt="" id="picc" width="320px">
+        </div>
+           <div id="wi"><div id="car_d"></div></div>
           </div>
           
         </div></div>
         <div class="d-grid justify-content-center">
-        <input type="text" id="sho_w" onchange="input_a()"></div>
-    </div></div>
+         
+        <input type="text" id="sho_w" onchange="input_a()">
+        <label for="input_files"> <p id="bbb">ADD IMAGE</p></label>
+        <input type="file" accept="imge/jpeg, image/png, image/jpg" id="input_files"class ="none">
+      </div></div>
+      <div class="d-grid d-grid justify-content-center" id="hh">
+      <button id ="hide3" onclick="importdel()">import</button></div>
+      <div class="d-grid justify-content-center" id="hhh">
+      
+      <button id="hide4" onclick="addCard()">Add More</button>
+
+         <div id="cardContainer">
+  <!-- Cards will be added here -->
+          </div></div>
+      </div>
     
 
     <div id="ll">
