@@ -128,7 +128,8 @@ function addCard() {
 
   
   var cardContainer = document.getElementById('cardContainer');
-
+  
+         
   // Create a new card
   var card = document.createElement('divv');
   card.classList.add('card');
@@ -136,37 +137,67 @@ function addCard() {
   // Create a post inside the card
   var post = document.createElement('div');
   post.classList.add('post');
-  var postTitle = document.createElement('h4');
-  postTitle.textContent = "Add the Blog";
-
+  var postTitle = document.createElement('h6');
+  postTitle.textContent = "Write the Blog";
+  postTitle.id ="PO-ST"
   var taskList = document.createElement('div');
   taskList.classList.add('taskList');
+  
   var taskInput = document.createElement('input');
   taskInput.type = 'text';
+  taskInput.id = "team";
+  
   taskInput.placeholder = 'Add';
   var addTaskButton = document.createElement('button');
-  addTaskButton.textContent = 'Add';
+  addTaskButton.id = "buttonhide"
+  addTaskButton.textContent = 'ADD';
   addTaskButton.onclick = function() {
     addTask(this);
+    
+    post.removeChild(taskInput);
     document.getElementById("delete-task").style.display = "block"; 
-  };
+    post.removeChild(postTitle)
+    post.removeChild(addTaskButton);
 
+    
+
+ };
+
+  
+
+   /* card.removeChild(post);
+  });
+
+  var importbtn = document.createElement('button');
+  importbtn.textContent = "dd"
+  importbtn.addEventListener('click', function(){
+    document.getElementById("team").style.display ="none";
+  })*/
+   
   post.appendChild(postTitle);
   post.appendChild(taskInput);
+//  post.appendChild(deletebtn);
+  //post.appendChild(importbtn);
   post.appendChild(addTaskButton);
   post.appendChild(taskList);
   card.appendChild(post);
+  
 
   cardContainer.appendChild(card);
+  
+
 }
+
+
 
 function addTask(button) {
   var taskInput = button.previousElementSibling;
   var taskList = button.nextElementSibling;
-
+ 
   // Create a new list item
   var listItem = document.createElement('div');
   var taskText = document.createTextNode(taskInput.value);
+  
   listItem.appendChild(taskText);
 
   // Add click event listener to toggle task completion
@@ -180,8 +211,11 @@ function addTask(button) {
   taskInput.value = '';
   
 }
-function clearr(){
-  document.getElementById("cardContainer").innerHTML = "";
-  document.getElementById("delete-task").style.display ="none";
 
+ 
+ 
+
+function clears(){
+  document.getElementById("cardContainer").innerHTML="";
 }
+  
