@@ -130,24 +130,25 @@ function addCard() {
   var cardContainer = document.getElementById('cardContainer');
 
   // Create a new card
-  var card = document.createElement('div');
+  var card = document.createElement('divv');
   card.classList.add('card');
 
   // Create a post inside the card
   var post = document.createElement('div');
   post.classList.add('post');
-  var postTitle = document.createElement('h2');
-  postTitle.textContent = "Post Title";
+  var postTitle = document.createElement('h4');
+  postTitle.textContent = "Add the Blog";
 
-  var taskList = document.createElement('ul');
+  var taskList = document.createElement('div');
   taskList.classList.add('taskList');
   var taskInput = document.createElement('input');
   taskInput.type = 'text';
-  taskInput.placeholder = 'Enter a new task';
+  taskInput.placeholder = 'Add';
   var addTaskButton = document.createElement('button');
-  addTaskButton.textContent = 'Add Task';
+  addTaskButton.textContent = 'Add';
   addTaskButton.onclick = function() {
     addTask(this);
+    document.getElementById("delete-task").style.display = "block"; 
   };
 
   post.appendChild(postTitle);
@@ -164,7 +165,7 @@ function addTask(button) {
   var taskList = button.nextElementSibling;
 
   // Create a new list item
-  var listItem = document.createElement('li');
+  var listItem = document.createElement('div');
   var taskText = document.createTextNode(taskInput.value);
   listItem.appendChild(taskText);
 
@@ -178,4 +179,9 @@ function addTask(button) {
   // Clear the input field
   taskInput.value = '';
   
+}
+function clearr(){
+  document.getElementById("cardContainer").innerHTML = "";
+  document.getElementById("delete-task").style.display ="none";
+
 }
