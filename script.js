@@ -22,6 +22,7 @@ function send(){
   document.getElementById("sho_w").style.display = "none";
   document.getElementById("bbb").style.display = "block";
   document.getElementById("hide3").style.display ="block";
+  document.getElementById("fff").style.display = "block";
 }
   
   
@@ -48,7 +49,8 @@ function add(){
 function del(){
   document.getElementById("command").innerHTML = "";
   loadimage.src ="";
-  
+  document.getElementById("ll").style.display ="block";
+  document.getElementById("fff").style.display = "none";
   
   
 }
@@ -142,7 +144,7 @@ function addCard() {
   postTitle.id ="PO-ST"
   var taskList = document.createElement('div');
   taskList.classList.add('taskList');
-  
+  taskList.id="rrrr"
   var taskInput = document.createElement('input');
   taskInput.type = 'text';
   taskInput.id = "team";
@@ -209,7 +211,7 @@ function addTask(button) {
   taskList.appendChild(listItem);
   // Clear the input field
   taskInput.value = '';
-  
+
 }
 
  

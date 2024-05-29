@@ -124,9 +124,13 @@ border-radius: 360px;
 }
 .post{
     padding-bottom: 50px;
-    
-    
 }
+
+#fff{
+   display: none;
+   width: 100px;
+ }   
+
 divv{
     margin-top: 5vh;
     padding-top: 30px;
@@ -156,12 +160,17 @@ divv{
 #hhh{
     padding-bottom: 50px;
 }
+#padlite{
+    padding-top: 10px;
+    margin-top: 15vh;
+}
 #hide3{
     display: none;
     width: 100px;
 }
 #hide4{
     display: none;
+    width: 100px;
 }
 #wi{
     width: 360px;
