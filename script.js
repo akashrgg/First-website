@@ -219,5 +219,7 @@ function addTask(button) {
 
 function clears(){
   document.getElementById("cardContainer").innerHTML="";
+  document.getElementById("delete-task").style.display ="none";
+
 }
   
